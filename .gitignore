@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle
 
 bin
@@ -14,3 +15,11 @@ build
 .classpath
 
 .project
+=======
+
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+>>>>>>> origin/master
