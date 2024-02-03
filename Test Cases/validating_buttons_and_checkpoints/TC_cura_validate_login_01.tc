@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_cura_validate_login_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>521e2d6e-42cb-473e-8b60-2251572a9e27</testCaseGuid>
+</TestCaseEntity>
