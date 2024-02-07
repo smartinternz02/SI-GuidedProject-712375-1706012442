@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_CURA_Test Suite,Firefox 122.0,,,07-02-2024 16:26:13,07-02-2024 16:27:05,51.970s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Katalon_Login_Internal_Using Excel,Firefox 122.0,,,07-02-2024 16:26:14,07-02-2024 16:26:38,24.256s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 16:26:14,07-02-2024 16:26:15,0.843s,ERROR
+"openBrowser("""")",Firefox 122.0,,,07-02-2024 16:26:15,07-02-2024 16:26:19,4.210s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 16:26:19,07-02-2024 16:26:31,11.991s,PASSED
+maximizeWindow(),Firefox 122.0,,,07-02-2024 16:26:31,07-02-2024 16:26:31,0.348s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,07-02-2024 16:26:31,07-02-2024 16:26:33,1.661s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_username""), findTestData(""creditionals"").getValue(""username"", 1))",Firefox 122.0,,,07-02-2024 16:26:33,07-02-2024 16:26:34,0.731s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_password""), findTestData(""DDT_TESTDATA/Katalon_Login_excel_folder"").getValue(""password"", 1))",Firefox 122.0,,,07-02-2024 16:26:34,07-02-2024 16:26:35,1.235s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,07-02-2024 16:26:35,07-02-2024 16:26:36,1.228s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 16:26:36,07-02-2024 16:26:38,1.646s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 16:26:38,07-02-2024 16:26:38,0.101s,ERROR
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Katalon_Login_InternalData_002,Firefox 122.0,,,07-02-2024 16:26:38,07-02-2024 16:26:52,14.293s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 16:26:38,07-02-2024 16:26:38,0.078s,ERROR
+"openBrowser("""")",Firefox 122.0,,,07-02-2024 16:26:38,07-02-2024 16:26:41,2.938s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 16:26:41,07-02-2024 16:26:47,5.515s,PASSED
+maximizeWindow(),Firefox 122.0,,,07-02-2024 16:26:47,07-02-2024 16:26:47,0.288s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,07-02-2024 16:26:47,07-02-2024 16:26:48,1.079s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_username""), findTestData(""DDT_TESTDATA/Katalon_Login_InternalData"").getValue(""username"", 1))",Firefox 122.0,,,07-02-2024 16:26:48,07-02-2024 16:26:49,0.694s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_password""), findTestData(""DDT_TESTDATA/Katalon_Login_InternalData"").getValue(""password"", 1))",Firefox 122.0,,,07-02-2024 16:26:49,07-02-2024 16:26:49,0.632s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,07-02-2024 16:26:49,07-02-2024 16:26:50,1.030s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 16:26:50,07-02-2024 16:26:52,1.878s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 16:26:52,07-02-2024 16:26:52,0.069s,ERROR
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Validation_CURA_login_using variables by data binding,Firefox 122.0,,,07-02-2024 16:26:52,07-02-2024 16:27:05,12.839s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 16:26:52,07-02-2024 16:26:53,0.070s,ERROR
+"openBrowser("""")",Firefox 122.0,,,07-02-2024 16:26:53,07-02-2024 16:26:56,3.037s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 16:26:56,07-02-2024 16:26:59,3.846s,PASSED
+maximizeWindow(),Firefox 122.0,,,07-02-2024 16:26:59,07-02-2024 16:27:00,0.317s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,07-02-2024 16:27:00,07-02-2024 16:27:01,1.358s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_username""), username)",Firefox 122.0,,,07-02-2024 16:27:01,07-02-2024 16:27:02,0.672s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/input_password""), password)",Firefox 122.0,,,07-02-2024 16:27:02,07-02-2024 16:27:02,0.597s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/DDT_Katalon_Login_Internal_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,07-02-2024 16:27:02,07-02-2024 16:27:03,1.072s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 16:27:03,07-02-2024 16:27:05,1.665s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 16:27:05,07-02-2024 16:27:05,0.068s,ERROR

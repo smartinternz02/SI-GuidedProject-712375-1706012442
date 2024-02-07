@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Testsuite_TestListners,Firefox 122.0,,,07-02-2024 18:08:27,07-02-2024 18:09:38,1m - 10.747s,PASSED
+,,,,,,,
+Test Cases/Test Listener/TC_TL_AppointmentConfirmation,Firefox 122.0,,,07-02-2024 18:08:42,07-02-2024 18:09:38,55.770s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 18:08:42,07-02-2024 18:08:51,9.025s,PASSED
+takeScreenshot(),Firefox 122.0,,,07-02-2024 18:08:51,07-02-2024 18:08:54,2.119s,PASSED
+"click(findTestObject(""CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Make Appointment""))",Firefox 122.0,,,07-02-2024 18:08:54,07-02-2024 18:08:56,2.293s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Firefox 122.0,,,07-02-2024 18:08:56,07-02-2024 18:09:03,6.938s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Firefox 122.0,,,07-02-2024 18:09:03,07-02-2024 18:09:05,2.349s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_programs""))",Firefox 122.0,,,07-02-2024 18:09:05,07-02-2024 18:09:08,2.426s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Firefox 122.0,,,07-02-2024 18:09:08,07-02-2024 18:09:10,2.332s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/td_17""))",Firefox 122.0,,,07-02-2024 18:09:10,07-02-2024 18:09:12,2.313s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/textarea_comment""), ""Testing"")",Firefox 122.0,,,07-02-2024 18:09:12,07-02-2024 18:09:16,4.112s,PASSED
+takeScreenshot(),Firefox 122.0,,,07-02-2024 18:09:16,07-02-2024 18:09:19,2.353s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,07-02-2024 18:09:19,07-02-2024 18:09:21,2.633s,PASSED
+"verifyElementText(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Firefox 122.0,,,07-02-2024 18:09:21,07-02-2024 18:09:23,2.105s,PASSED
+takeScreenshot(),Firefox 122.0,,,07-02-2024 18:09:23,07-02-2024 18:09:26,2.113s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,07-02-2024 18:09:26,07-02-2024 18:09:28,2.299s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_History""))",Firefox 122.0,,,07-02-2024 18:09:28,07-02-2024 18:09:31,2.655s,PASSED
+takeScreenshot(),Firefox 122.0,,,07-02-2024 18:09:31,07-02-2024 18:09:33,2.097s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint""), true)",Firefox 122.0,,,07-02-2024 18:09:33,07-02-2024 18:09:33,0.044s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 18:09:33,07-02-2024 18:09:38,5.446s,PASSED

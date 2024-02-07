@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_Testsuite_TestListners" time="70.747" tests="1" failures="0" errors="0">
+   <testsuite name="CURA_Testsuite_TestListners" tests="1" failures="0" errors="0" time="70.747" skipped="0" timestamp="07-02-2024T18:08:27" hostname="PRAVEEN - DESKTOP-EH59TE7" id="Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818"/>
+         <property name="logFiles" value="C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309534050.png, C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309559036.png, C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309566015.png, C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309573087.png"/>
+         <property name="hostName" value="PRAVEEN - DESKTOP-EH59TE7"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 122.0"/>
+         <property name="hostAddress" value="192.168.114.220"/>
+         <property name="sessionId" value="34fbc12e-0f6f-404d-a8ac-7c22e11633d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Listener/TC_TL_AppointmentConfirmation" time="55.77" classname="Test Cases/Test Listener/TC_TL_AppointmentConfirmation" status="PASSED">
+         <system-out><![CDATA[07-02-2024T18:08:42 - [TEST_CASE][PASSED] - Test Cases/Test Listener/TC_TL_AppointmentConfirmation: Test Cases/Test Listener/TC_TL_AppointmentConfirmation
+
+07-02-2024T18:08:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T18:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_username'
+
+07-02-2024T18:08:47 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_username'
+
+07-02-2024T18:08:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_password'
+
+07-02-2024T18:08:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_password'
+
+07-02-2024T18:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T18:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T18:08:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+07-02-2024T18:08:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309534050.png]]
+
+07-02-2024T18:08:54 - [TEST_STEP][PASSED] - click(findTestObject("CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Make Appointment")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+07-02-2024T18:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+07-02-2024T18:08:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+07-02-2024T18:09:03 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+07-02-2024T18:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+07-02-2024T18:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+07-02-2024T18:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-02-2024T18:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/input_programs' is clicked on
+
+07-02-2024T18:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-02-2024T18:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-02-2024T18:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/td_17")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/td_17' is clicked on
+
+07-02-2024T18:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/td_17' is clicked on
+
+07-02-2024T18:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/textarea_comment"), "Testing"): Text 'Testing' is set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/textarea_comment'
+
+07-02-2024T18:09:16 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/textarea_comment'
+
+07-02-2024T18:09:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+07-02-2024T18:09:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309559036.png]]
+
+07-02-2024T18:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-02-2024T18:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-02-2024T18:09:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+07-02-2024T18:09:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+07-02-2024T18:09:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+07-02-2024T18:09:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309566015.png]]
+
+07-02-2024T18:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-02-2024T18:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-02-2024T18:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+07-02-2024T18:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+07-02-2024T18:09:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+07-02-2024T18:09:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PRAVEEN\\Katalon Studio\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing\\CURA_HealthCare_Project_Using_Katalon_Automation_Testing-main\\Reports\\20240207_180817\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240207_180818\\1707309573087.png]]
+
+07-02-2024T18:09:33 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint"), true): Checkpoint data and Source data are matched
+
+07-02-2024T18:09:33 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+07-02-2024T18:09:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+07-02-2024T18:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-02-2024T18:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+07-02-2024T18:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+07-02-2024T18:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_New_001/TL_CURA_Page_OR/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T18:08:27 - [TEST_SUITE][PASSED] - CURA_Testsuite_TestListners: Test Cases/Test Listener/TC_TL_AppointmentConfirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

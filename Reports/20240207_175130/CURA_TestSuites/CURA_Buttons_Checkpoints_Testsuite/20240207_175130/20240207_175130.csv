@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Buttons_Checkpoints_Testsuite,Firefox 122.0,,,07-02-2024 17:51:43,07-02-2024 17:53:24,1m - 41.374s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_Checkbox_buttons_Validation,Firefox 122.0,,,07-02-2024 17:51:43,07-02-2024 17:52:17,34.286s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 17:51:43,07-02-2024 17:51:44,0.839s,ERROR
+"openBrowser("""")",Firefox 122.0,Invoking Browser,,07-02-2024 17:51:44,07-02-2024 17:51:50,5.724s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,Launch the url,,07-02-2024 17:51:50,07-02-2024 17:51:57,6.716s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,07-02-2024 17:51:57,07-02-2024 17:51:58,0.829s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 122.0,,,07-02-2024 17:51:58,07-02-2024 17:51:59,1.787s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 122.0,,,07-02-2024 17:51:59,07-02-2024 17:52:00,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,07-02-2024 17:52:00,07-02-2024 17:52:01,0.589s,PASSED
+takeScreenshot(),Firefox 122.0,,,07-02-2024 17:52:01,07-02-2024 17:52:02,1.022s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,Click on Login Button,,07-02-2024 17:52:02,07-02-2024 17:52:03,1.153s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/label_Medicaid""))",Firefox 122.0,,,07-02-2024 17:52:03,07-02-2024 17:52:05,2.436s,PASSED
+"unchecked = verifyElementNotChecked(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/label_Medicaid""), 0)",Firefox 122.0,,,07-02-2024 17:52:05,07-02-2024 17:52:08,2.307s,PASSED
+if (unchecked == true),Firefox 122.0,,,07-02-2024 17:52:08,07-02-2024 17:52:10,2.464s,PASSED
+delay(3),Firefox 122.0,,,07-02-2024 17:52:10,07-02-2024 17:52:13,3.070s,PASSED
+"uncheck(findTestObject(""CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/label_Medicaid""), STOP_ON_FAILURE)",Firefox 122.0,,,07-02-2024 17:52:13,07-02-2024 17:52:15,2.132s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 17:52:15,07-02-2024 17:52:17,1.950s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 17:52:17,07-02-2024 17:52:17,0.114s,ERROR
+,,,,,,,
+Test Cases/Buttons/TC_Dropdown_Validation-001,Firefox 122.0,,,07-02-2024 17:52:17,07-02-2024 17:53:24,1m - 6.435s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 17:52:18,07-02-2024 17:52:18,0.105s,ERROR
+"openBrowser("""")",Firefox 122.0,,,07-02-2024 17:52:18,07-02-2024 17:52:23,4.725s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 17:52:23,07-02-2024 17:52:38,15.765s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,07-02-2024 17:52:38,07-02-2024 17:52:41,2.390s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 122.0,,,07-02-2024 17:52:41,07-02-2024 17:52:44,3.122s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 122.0,,,07-02-2024 17:52:44,07-02-2024 17:52:48,4.287s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,07-02-2024 17:52:48,07-02-2024 17:52:50,2.074s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,07-02-2024 17:52:50,07-02-2024 17:52:53,2.867s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/label_Facility""), 0)",Firefox 122.0,,,07-02-2024 17:52:53,07-02-2024 17:52:55,2.128s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), Facility, true)",Firefox 122.0,,,07-02-2024 17:52:55,07-02-2024 17:53:02,6.593s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/page_appointment/Page_CURA Healthcare Service/label_Medicaid""))",Firefox 122.0,,,07-02-2024 17:53:02,07-02-2024 17:53:04,2.317s,PASSED
+"verifyElementText(findTestObject(""CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/label_Visit Date (Required)""), ""Visit Date (Required)"")",Firefox 122.0,,,07-02-2024 17:53:04,07-02-2024 17:53:06,2.152s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/page_appointment/Page_CURA Healthcare Service/input_visit_date""))",Firefox 122.0,,,07-02-2024 17:53:06,07-02-2024 17:53:09,2.350s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/page_appointment/Page_CURA Healthcare Service/td_17""))",Firefox 122.0,,,07-02-2024 17:53:09,07-02-2024 17:53:11,2.530s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/div_Visit Date (Required)""))",Firefox 122.0,,,07-02-2024 17:53:11,07-02-2024 17:53:13,2.332s,PASSED
+"setText(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/textarea_comment""), ""Testing"")",Firefox 122.0,,,07-02-2024 17:53:13,07-02-2024 17:53:18,4.207s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/Buttons_Validation_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,07-02-2024 17:53:18,07-02-2024 17:53:22,4.542s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 17:53:22,07-02-2024 17:53:24,1.442s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 17:53:24,07-02-2024 17:53:24,0.108s,ERROR
+,,,,,,,
+Test Cases/CheckPoints/Checkpoint_Cura_AppointmentConfirmation_TestData,Firefox 122.0,,,07-02-2024 17:53:24,07-02-2024 17:53:24,0.312s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 17:53:24,07-02-2024 17:53:24,0.093s,ERROR
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint""), true)",Firefox 122.0,,,07-02-2024 17:53:24,07-02-2024 17:53:24,0.048s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 17:53:24,07-02-2024 17:53:24,0.081s,ERROR

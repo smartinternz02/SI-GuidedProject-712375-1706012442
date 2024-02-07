@@ -1,0 +1,1 @@
+Test Suites/CURA_TestSuiteCollection/Cura_buttons_checkpoints_Test suite collection

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_TestSuite_Validation of Test Cases,Firefox 122.0,,,07-02-2024 17:30:57,07-02-2024 17:33:42,2m - 45.069s,PASSED
+,,,,,,,
+Test Cases/CURA_Validations Of Test Cases/TC_CURA Healthcare Service_LogOut_005,Firefox 122.0,,,07-02-2024 17:30:58,07-02-2024 17:33:42,2m - 44.776s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 17:30:58,07-02-2024 17:30:59,0.941s,ERROR
+"callTestCase(findTestCase(""CURA_Validations Of Test Cases/TC_CURA Healthcare Service_History_004""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,07-02-2024 17:30:59,07-02-2024 17:33:38,2m - 38.947s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/page_Make an Appointment/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,07-02-2024 17:33:38,07-02-2024 17:33:38,0.577s,PASSED
+"click(findTestObject(""Object Repository/CURA_New_001/page_Logout/Page_CURA Healthcare Service/a_Logout""))",Firefox 122.0,,,07-02-2024 17:33:38,07-02-2024 17:33:40,1.922s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 17:33:40,07-02-2024 17:33:42,1.940s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 17:33:42,07-02-2024 17:33:42,0.128s,ERROR

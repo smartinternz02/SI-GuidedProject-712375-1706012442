@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Built-in-keywords_Custom Keywords_Test Suite,Firefox 122.0,,,07-02-2024 18:01:40,07-02-2024 18:02:15,34.772s,PASSED
+,,,,,,,
+Test Cases/Built-in-Keywords -Demo,Firefox 122.0,,,07-02-2024 18:01:40,07-02-2024 18:02:14,34.317s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 18:01:40,07-02-2024 18:01:41,0.639s,ERROR
+"openBrowser("""")",Firefox 122.0,,,07-02-2024 18:01:41,07-02-2024 18:01:44,3.303s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 18:01:44,07-02-2024 18:01:51,6.908s,PASSED
+maximizeWindow(),Firefox 122.0,,,07-02-2024 18:01:51,07-02-2024 18:01:52,0.617s,PASSED
+url = getUrl(),Firefox 122.0,,,07-02-2024 18:01:52,07-02-2024 18:01:52,0.035s,PASSED
+out.println(url),Firefox 122.0,,,07-02-2024 18:01:52,07-02-2024 18:01:52,0.039s,PASSED
+out.println(getWindowIndex()),Firefox 122.0,,,07-02-2024 18:01:52,07-02-2024 18:01:52,0.032s,PASSED
+out.println(getWindowTitle()),Firefox 122.0,,,07-02-2024 18:01:52,07-02-2024 18:01:52,0.023s,PASSED
+delay(6),Firefox 122.0,,,07-02-2024 18:01:52,07-02-2024 18:01:58,6.045s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,07-02-2024 18:01:58,07-02-2024 18:01:58,0.388s,PASSED
+delay(5),Firefox 122.0,,,07-02-2024 18:01:58,07-02-2024 18:02:03,5.006s,PASSED
+back(),Firefox 122.0,,,07-02-2024 18:02:03,07-02-2024 18:02:03,0.024s,PASSED
+delay(5),Firefox 122.0,,,07-02-2024 18:02:03,07-02-2024 18:02:08,5.013s,PASSED
+forward(),Firefox 122.0,,,07-02-2024 18:02:08,07-02-2024 18:02:08,0.019s,PASSED
+delay(5),Firefox 122.0,,,07-02-2024 18:02:08,07-02-2024 18:02:13,5.015s,PASSED
+out.println(getUrl()),Firefox 122.0,,,07-02-2024 18:02:13,07-02-2024 18:02:13,0.012s,PASSED
+windowno = getWindowIndex(),Firefox 122.0,,,07-02-2024 18:02:13,07-02-2024 18:02:13,0.017s,PASSED
+out.println(windowno),Firefox 122.0,,,07-02-2024 18:02:13,07-02-2024 18:02:13,0.006s,PASSED
+out.println(getWindowTitle()),Firefox 122.0,,,07-02-2024 18:02:13,07-02-2024 18:02:13,0.019s,PASSED
+closeBrowser(),Firefox 122.0,,,07-02-2024 18:02:13,07-02-2024 18:02:14,0.865s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 18:02:14,07-02-2024 18:02:14,0.099s,ERROR
+,,,,,,,
+Test Cases/Custom Keywords/TC_Keyword_001,Firefox 122.0,,,07-02-2024 18:02:14,07-02-2024 18:02:15,0.228s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,07-02-2024 18:02:14,07-02-2024 18:02:14,0.055s,ERROR
+com.qa.test.customFunctions.PrintHello(),Firefox 122.0,,,07-02-2024 18:02:15,07-02-2024 18:02:15,0.017s,PASSED
+"com.qa.test.customFunctions.PrintName(""Successfully"")",Firefox 122.0,,,07-02-2024 18:02:15,07-02-2024 18:02:15,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,07-02-2024 18:02:15,07-02-2024 18:02:15,0.060s,ERROR
