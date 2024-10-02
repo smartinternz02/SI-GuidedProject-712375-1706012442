@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_001 Working with Groovy Variable</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>62dbd7dd-f8c2-403c-817d-6b72db658aa3</testCaseGuid>
-</TestCaseEntity>
